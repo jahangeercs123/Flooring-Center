@@ -1,0 +1,1480 @@
+/* ###################### Global css######################### */
+*{  margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;  
+}
+/* ###############Responsive basic */
+.desktop-none {
+    display: none;
+}
+.desktop-block {
+    display: block;
+}
+
+.mobile-none {
+    display: block;
+}
+/* ################end */
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+h2{
+    font-size: 26px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #484848;
+}
+p{
+    font-size: 14px;
+    color: #484848;
+    font-weight: 400; 
+}
+.clear{
+    clear: both;
+}
+.white-color{
+    color: white;
+}
+.gray-color{
+    color: gray;
+}
+.yellow-color{
+    color: #c78e21;
+}
+.bg-yellow-color{
+    background-color: #cfa556;
+}
+/* #################Header Section ############################# */
+.header-top-section{
+   background-color: #363434;
+   padding: 23px 23px;
+}
+.header-top-section p{
+    font-size: 16px;
+    font-weight: 300;
+}
+.top-section-wrapper{
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+}
+.contact-no{
+    font-weight: 300;
+    font-size: 17px;
+}
+.visit-btn{
+    font-size: 13px;
+    font-weight: 700;
+    padding: 10px 10px;
+    background-color: #444444;
+    margin-left: 14px;
+}
+.header-logo{
+    display: flex;
+    justify-content: center;
+    margin: 25px 25px;
+}
+.header-logo img{
+    width: 290px;
+}
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.header-navbar{
+    display: flex;
+    width: 60%;
+    justify-content: space-between; 
+}
+.header-navbar li{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.header-navbar a{
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: white;  
+    position: relative;
+}
+.header-navbar a:hover{
+    color: gray;
+    /* font-size: 18px; */
+}
+.header-navbar li a::after{
+    content: "";
+    position: absolute;
+    background-color: #dbbc82;
+    bottom: 0px;
+    margin-left: 50px;
+    height: 32px;
+    width: 1.5px;
+}
+.header-navbar li:last-child a:after{
+    display: none;
+ }
+
+.soical-link{
+    display: flex;
+    width: 34%;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.soical-link p{
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+}
+.soical-link i{
+    color: white;
+    font-size: 30px;
+    padding-left: 20px;
+}
+.soical-link i:hover{
+    color: gray;
+    transition: 0.9s;
+}
+/* ################## Banner Section############### */
+.banner{
+    background-image: url("../images/banner-bgimg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    opacity: 1;    
+}
+.banner-wrapper{
+    padding: 150px;
+}
+.banner-wrapper p{
+    font-size: 30px;
+    font-weight: 300;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+span{
+    display: inline-block;
+}
+.banner-wrapper h1{
+    margin-bottom: 20px;
+}
+.voted{
+    color: #7daec5;
+    background-color: white;
+    font-size: 58px;
+    padding: 15px;
+}
+.best-carpet{
+    color: white;
+    background-color: #7daec5;
+    font-size: 47px;
+    font-weight: 300;
+    padding-top: 27px;
+    padding-bottom: 18px;
+    padding-left: 30px;
+    padding-right: 80px;
+    }
+    .store{
+        font-size: 45px;
+        margin-bottom: 20px;
+        font-weight: 700;
+        
+    }
+   .spn span{
+    position: relative;
+   }
+   .spn span::before{
+    content: "";
+    display: block;
+    width: 74px;
+    height: 4px;
+    background: #fff;
+    left: -84px;
+    top: 49%;
+    position: absolute;
+}
+     .spn span::after{
+        content: "";
+        display: block;
+        width: 74px;
+        height: 4px;
+        background: #fff;
+        right: -84px;
+        top: 49%;
+        position: absolute;
+      
+    } 
+    .bannertext-wrapper{
+        margin-bottom: 45px;
+    }
+    .banner-wrapper a{
+        font-size: 21px;
+        font-weight: 400;
+        color: #ededed;
+        padding: 20px 40px;
+        background-color: #4d4d4d;
+    }
+    /* ####################### css for brands logos####################### */
+    .brand-logos{
+       padding: 50px;
+       background-color: #ffffff;       
+        
+    }
+    .images-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .brand-logo-btn{
+        color: black;
+        font-size: 19px;
+        font-weight: 400;
+    }
+    /* ################## Styling For Our Product Section ################# */
+    .our-product{
+        background-color: #f2f2f2;
+        margin-bottom: 100px;
+        
+    }
+    .text-wrapper{
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        margin-bottom: 60px;
+        align-content: center;
+    }
+    .text-wrapper h2{
+       
+        
+        max-width: 242px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        
+    }
+    .text-wrapper p{
+        font-size: 14px;
+        font-weight: 400;
+        width: 100%;
+        margin: 0 auto;
+        max-width: 696px;
+        color: #484848;
+        text-align: center;
+    }
+    .product-cards {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        padding-bottom: 60px;
+    }
+    .product-cards .card{
+        width: 31%;
+        max-width: 100%;
+        position: relative;
+        /* text-align: left; */
+    }
+    .product-cards .card img{
+        height: auto;
+    width: 100%;
+    }
+    .product-cards .card span{
+        margin-bottom: 10px;
+        padding-left: 20px;
+        font-size: 45px;
+        font-weight: 700;
+        color: #1e1e1e;
+    }
+    .product-cards .card p{
+        font-size: 14px;
+        padding-left: 25px;
+        font-weight: 400;
+        color: #525253;
+    }
+    .product-cards .card a{
+        background-color: white;
+        color: #484848;
+        font-size: 14px;
+        padding: 10px;
+        margin-bottom: 30px;
+        margin-right: 20px;
+    }
+    
+    .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(190, 172, 172, 0.804);
+        /* opacity: 0.2; */
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        transition: .5s ease;
+      }
+      .product-cards .card:hover .overlay {
+          height: 50%;
+        }
+    .product-cards .card .read-more{
+        width: 100%;
+        text-align: right;
+    }
+    /* ###################### STYLING FOR WELLCOME PAGE####################### */
+    .wellcome-section{
+        margin-bottom: 80px;
+    }
+
+    .wellcome-wrapper{
+        display: flex;
+        width: 100%;
+        align-items: center;
+}
+.well-img-wrapper{
+    width: 37%;
+}
+.well-img-wrapper img{
+    width: 100%;
+}
+.well-text-wrapper{
+    width: 60%;
+    margin: 0 auto;
+    margin-right: 0px;
+}
+.well-text-wrapper h2{
+    margin-bottom: 40px;
+}  
+.well-text-wrapper p{
+    margin-bottom: 75px;
+}
+.well-text-wrapper a{
+    padding: 15px;
+    font-weight: 700;
+    font-size: 12px;
+    color: white;
+    background-color: #484848;
+}
+/* ###########################Styling for showcase Section########### */
+.showroom-section{
+margin-bottom: 80px;
+background-color: #cfa556;
+}
+.showroom-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.showroom-wrapper a{
+    color: white;
+    font-size: 33px;
+    font-weight: 400;
+    margin: 20px;
+    /* padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 10px; */
+    padding-left: 38px;
+    padding-right: 33px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border: 3px solid #fff;
+    border-radius: 50px;
+} 
+.showroom-wrapper p{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+} 
+/* ################### Styling for Galary Section################ */
+.pic{
+    width: 47%;
+    max-width: 100%;
+    position: relative;
+    /* text-align: left; */
+}
+.overlaypic {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(190, 172, 172, 0.804);
+    /* opacity: 0.2; */
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  .overlaypic span{
+    color: black;
+    font-size: 40px;
+    margin-top: 15px;
+    font-weight: 700;
+    margin-left: 10px;
+  }
+  .overlaypic p{
+    margin-top: 15px;
+    font-size: 16px;
+    margin-left: 10px;
+    color: black;
+    font-weight: 300;
+  }
+  .overlaypic a{
+color: #363434;
+text-align: right;
+padding: 10px;
+background-color: white;
+margin-left: 15px;
+margin-top: 15px;
+margin-bottom: 15px;
+
+
+  }
+  .galary .pic:hover .overlaypic {
+      height: 50%;
+    }
+.galary-text{
+    text-align: center;
+}
+.galary-text h3{
+    max-width: 587px;
+    /* margin-bottom: 40px; */
+    margin: 0 auto 40px;
+    color: #484848;
+    font-size: 26px;
+    font-weight: 500;
+
+}
+.galary-text p{
+    
+    margin: 0 auto;
+    max-width: 696px;
+    margin-bottom: 70px;
+}
+.galary-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 100px;
+    gap: 40px
+}
+.galary-images .pic img{
+    width: 100%;
+}
+/* ####################### Styling for our blog section########### */
+.our-blog{
+    background-image: url('../images/ourblogbg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(120, 120, 120);
+    opacity: 1;
+    padding-top: 50px;
+    margin-bottom: 88px;
+}
+.our-blog h2{
+    text-align: center;
+    margin-bottom: 49px;
+}
+.blog-cards{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 70px;
+}
+.card-wrapper{
+    width: 33%;
+}
+.blog-cards .card{
+    background-color: white;
+    /* width: 95%; */
+    height: 220px;
+    /* margin: 10px; */
+    /* padding: 10px; */
+    border-radius: 15px;
+}
+.card-wrapper .card{
+    margin-bottom: 50px;
+}
+.card-wrapper .card-text h4{
+    max-width: 303px;
+    /* padding-left: 10px; */
+    padding-right: 20px;
+    color: white;
+    font-size: 23px;
+    font-weight: 400;
+    /* margin: 0 auto 0px; */
+    margin-bottom: 34px;
+
+}
+.card-wrapper .card-text p{
+    max-width: 400px;
+    color: white;
+    font-size: 14px;
+    /* padding-left: 10px; */
+    padding-right: 20px;
+    margin-right: 20px;
+    margin: 0 auto 34px;
+    /* margin-bottom: 34px; */
+}
+.card-wrapper .card-text a{
+    color: white;
+    font-size: 14px;
+    padding: 13px 26px;
+    background-color: #7daec5;
+}
+/* ###################### CSS styling For visiting Section################ */
+.visit-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    width: 100%;
+}
+.visit-left{
+    width: 48%;
+}
+.visit-left h2{
+    margin-bottom: 33px;
+}
+.visit-right{
+    width: 48%;
+}
+.visit-right-top h2{
+    margin-bottom: 33px;
+}
+.visit-right-top p{
+    margin-bottom: 34px;
+}
+.visit-right-buttom h2{
+    margin-bottom: 33px;
+}
+/* ########################## CSS Styling for Footer Section#################### */
+footer{
+    margin-bottom: 100px;
+}
+.footer-text p{
+    text-align: center;
+    font-size: 12px;
+    color: #9c9c9c;
+}
+.map{
+    margin-bottom: 50px;
+    width: 100%;
+
+}
+.map img{
+    width: 100%;
+}
+.footer-text a{
+    color: #9c9c9c;
+}
+/* ######################### Responsive Styling#####################  */
+/* ################Styling for "header" in 1200 point media thanks################ */
+@media only screen and (max-width: 1200px) {
+    .container {
+        padding: 0px 60px;
+    }
+
+    .header-top-section {
+        padding: 15px 0px;
+    }
+    .visit-btn {
+        font-size: 12px;
+        font-weight: 500;
+        padding: 8px 8px;
+        margin-left: 10px;
+    }
+    .header-logo img {
+        width: 230px;
+    }
+    .header-logo {
+        margin: 15px 16px;
+    }
+    .header-navbar li {
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+    .header-navbar a {
+        font-size: 15px;
+        font-weight: 300;
+        word-spacing: 5px;
+        letter-spacing: 0.3px;
+    }
+    .header-navbar li a::after {
+        margin-left: 30%;
+        height: 25px;
+        width: 1.4px;
+    }
+    .soical-link i {
+        font-size: 28px;
+        padding-left: 17px;
+    }
+    /* ################Styling for "banner" in 1200 point media thanks################ */
+    .banner-wrapper {
+        padding: 100px;
+    }
+    .bannertext-wrapper {
+        margin-bottom: 35px;
+    }
+   .banner-wrapper p {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    .banner-wrapper h1 {
+        margin-bottom: 10px;
+    }
+    .voted {
+        font-size: 48px;  
+        padding: 10px;
+    }
+    .best-carpet{
+        font-size: 37px;
+        padding-top: 21px;
+        padding-left: 15px;
+        padding-bottom: 13px;
+        padding-right: 50px;
+    }
+    .store {
+        font-size: 40px;
+        margin-bottom: 10px;
+        font-weight: 600;
+    }
+    .banner-wrapper a {
+        font-size: 19px;
+        font-weight: 300;
+        padding: 15px 30px;  
+    }
+    .spn span::after{
+        height: 3px;
+        width: 49px;
+        right: -54px
+        
+    }
+    .spn span::before{
+        height: 3px;
+        width: 49px;
+        left: -54px
+    }
+    
+    /* ################## Styling for brands logos section on 1200 point media query thanks ############*/
+    .brand-logos{
+        padding-bottom: 25px;
+        padding-top: 25px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    .images-wrapper {
+        max-width: 100%;
+    }
+    /* .images-wrapper img{
+        width: 90%;
+        
+    } */
+    .brand-logo-btn {
+        font-size: 18px;
+    }
+    /* ################## Styling for brands Our Porduct section on 1200 point media query thanks ############*/
+    .text-wrapper {
+        padding-top: 30px;
+        margin-bottom: 50px;  
+    }
+    .text-wrapper h2 {
+        margin-bottom: 30px;
+    }
+    .product-cards {
+        padding-bottom: 55px;
+    }
+    .product-cards .card span {
+        font-size: 35px;
+        font-weight: 600; 
+    }
+    
+    /* ################## Styling for Show room section on 1200 point media query thanks ############*/
+    .showroom-section {
+        margin-bottom: 50px;
+    }
+    .showroom-wrapper a {
+        margin: 20px 0px;
+        font-size: 22px;
+        font-weight: 400;
+        padding-left: 34px;
+        padding-right: 34px;
+    }
+    .showroom-wrapper p {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    .galary-images .pic img {
+        width: 100%;
+    }
+    .galary-images .pic{
+        gap: 48px;
+    }
+}
+/* ######################### Responsive Styling#####################  */
+/* ################Styling for "header" in 1024 point media thanks################ */
+@media only screen and (max-width: 1024px){
+
+    .container{
+        padding: 0px 40px;
+    }
+    .header-top-section {
+        padding: 16px 17px;
+    }
+    .header-top-section p{
+        margin-right: 10px;
+        font-size: 16px;
+    }
+    .contact-no{
+        font-size: 15px;
+    }
+    .visit-btn {
+        font-weight: 500;
+        padding: 8px 7px;
+    }
+    .header-logo {
+        margin: 14px 14px;
+    }
+    .header-logo img {
+        width: 220px;
+    }
+    .header-navbar li {
+        padding-top: 15px;
+        padding-bottom: 13px;
+    }
+    .header-navbar a {
+        font-size: 14px;
+        word-spacing: 3px;
+        letter-spacing: -0.7px;
+    }
+    .header-navbar li a::after {
+        margin-left: 26%;
+        height: 22px;
+        width: 1.3px;
+    }
+
+    .soical-link p {
+        font-size: 16px;
+    }
+    .soical-link i {
+        font-size: 26px;
+        padding-left: 14px;
+    }
+   /* ################Styling for "banner" in 1024 point media thanks################ */
+   .banner-wrapper {
+    padding: 80px;
+}
+.banner-wrapper p {
+    font-size: 27px;
+    margin-bottom: 16px;
+}
+.voted {
+    font-size: 36px;
+
+}
+.best-carpet {
+    font-size: 28px;
+    padding-top: 18px;
+    padding-left: 12px;
+    padding-bottom: 12px;
+    padding-right: 40px;
+}
+.store {
+    font-size: 35px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.spn span::before {
+    height: 3px;
+    width: 32px;
+    left: -34px;
+}
+.spn span::after {
+    height: 3px;
+    width: 32px;
+    right: -34px;
+}
+.banner-wrapper a {
+    font-size: 18px;
+    padding: 14px 26px;
+}
+.brand-logos {
+    padding-bottom: 16px;
+    padding-top: 16px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.images-wrapper img {
+    width: 100%;
+    padding: 10px;
+}
+.brand-logo-btn {
+    font-size: 12px;
+}
+   /* ################Styling for "banner" in 1024 point media thanks################ */
+   .our-product {
+    margin-bottom: 80px;
+}
+.text-wrapper {
+    padding-top: 27px;
+    margin-bottom: 45px;
+}
+.text-wrapper h2 {
+    margin-bottom: 28px;
+}
+.product-cards .card:hover .overlay {
+    height: 55%;
+}
+.product-cards .card span {
+    font-size: 34px;
+    font-weight: 500;
+}
+.product-cards .card span {
+    margin-bottom: 5px;
+}
+
+   /* ################Styling for "wellcome Section" in 1024 point media thanks################ */
+.wellcome-section {
+    margin-bottom: 70px;
+}
+.well-text-wrapper h2 {
+    margin-bottom: 15px;
+}
+.well-text-wrapper p {
+    margin-bottom: 25px;
+}
+.showroom-wrapper p {
+    font-size: 16px;
+}
+.showroom-wrapper a {
+    font-size: 14px;
+    padding-left: 25px;
+    padding-right: 38px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    border: 2px solid #FFF;
+}
+ /* ################Styling for "galary-section" in 1024 point media thanks################ */
+ .galary-text h3 {
+    margin: 0 auto 20px;
+ }
+ .galary-text p {
+    margin: 0 auto;
+    max-width: 789px;
+    margin-bottom: 45px;
+}
+
+
+
+/* ################Styling for "Our-blog-section" in 1024 point media thanks################ */
+.our-blog{
+    margin-bottom: 60px;
+}
+.our-blog h2 {
+    margin-bottom: 40px;
+}
+.our-blog h2 {
+    margin-bottom: 35px;
+}
+.card-wrapper .card {
+    margin-bottom: 40px;
+}
+.card-wrapper {
+    width: 32%;
+}
+.text p {
+    margin: 0 auto 30px;
+}
+/* ################Styling for "Visting-section" in 1024 point media thanks################ */
+.visit-wrapper {
+    margin-bottom: 45px;
+}
+.visit-left h2 {
+    margin-bottom: 28px;
+}
+.visit-right-top p {
+    margin-bottom: 28px;
+}
+
+
+/* ################Styling for "Footer-section" in 1024 point media thanks################ */
+footer {
+    margin-bottom: 70px;
+}
+}
+@media only screen and (max-width: 768px){
+    .visit-btn {
+        font-size: 11px;
+    }
+    .top-section-wrapper {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .header-top-section p {
+        margin-bottom: 10px;
+        margin-right: 0px;
+        font-size: 14px;
+    }
+    .contact-no {
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    .visit-btn {
+        font-weight: 400;
+        padding: 6px 7px;
+    }
+    .header-logo {
+        margin: 14px 0px;
+    }
+    .header-logo {
+        display: flex;
+        justify-content: left;
+        margin: 25px 25px;
+    }
+    .container {
+        padding: 0px 60px;
+        overflow-x: auto;
+    }
+    .images-wrapper {
+        width: 900px;
+        padding: 0 0px;
+        max-width: unset;
+    }
+    /* weeecomne section */
+
+
+ .wellcome-wrapper {
+            align-items: center;
+            flex-direction: column;
+        }
+        .well-img-wrapper {
+            margin-bottom: 20px;
+            /* width: 100%;
+            max-width: 530px; */
+            margin-right: auto;
+        }
+        .well-text-wrapper {
+            width: 100%;
+            margin: 0 auto;
+            margin-right: 0px;
+        }
+
+
+    /* weell come */
+    /* .images-wrapper img {
+        width: 0%;
+    } */
+    /* muner bar coding */
+    input {
+        visibility: hidden;
+    }
+     /* .header-buttom-section{
+        visibility: hidden;
+    }  */
+    label.menubtn {
+        width: 59px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        flex-direction: column;
+        padding: 0 6px;
+        transition: 0.3s all ease-in-out;
+        position: absolute;
+        top: 142px;
+        right: 15px;
+    }
+    .menubtn .spinner {
+        width: 100%;
+        height: 1px;
+        border: 2px solid #313131;
+        transition: 0.3s all ease-in-out;
+    }
+    #opensidebar:checked~.sidebarIconToggle .top {
+        transform: translate(0, 9px) rotate(45deg);
+    }
+
+    #opensidebar:checked~.sidebarIconToggle .middle {
+      
+        transform: 0.10s;
+        opacity: 0;
+    }
+
+    #opensidebar:checked~.sidebarIconToggle .bottom {
+        transform: translate(0, -9px) rotate(-45deg);
+    }
+    .header-buttom-section {
+        flex-direction: column;
+        align-items: center;
+        height: 0;
+        overflow: hidden;
+        transition: 0.3s all ease-in-out;
+    }
+
+    #opensidebar:checked~#mobile-menu {
+        height: auto;
+        transition: 0.3s all ease-in-out;
+    }
+   
+    .header-logo { 
+        justify-content: left;
+        margin: 10px;
+    }
+    .header-logo img {
+        width: 215px;
+    }
+    .banner-wrapper {
+        padding: 50px;
+    }
+    .bannertext-wrapper {
+        margin-bottom: 30px;
+    }
+    .banner-wrapper p {
+        font-size: 15px;
+        margin-bottom: 12px;
+    }
+    .banner-wrapper h1 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 8px;
+    }
+    .voted {
+        font-size: 20px;
+    }
+    .best-carpet {
+        padding: 13.5px 10px 10.5px 18px;
+        font-size: 13px;
+    }
+    .store {
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .banner-wrapper a {
+        font-size: 14px;
+        padding: 10px 16px;
+    }
+    .our-product {
+        margin-bottom: 70px;
+    }
+    .text-wrapper h2 {
+        margin-bottom: 19px;
+    }
+    .text-wrapper {
+        padding-top: 24px;
+        margin-bottom: 42px;
+    }
+    .wellcome-section {
+        margin-bottom: 40px;
+    }
+    .showroom-section {
+        margin-bottom: 40px;
+    }
+    .showroom-wrapper {
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .showroom-wrapper a {
+        margin: 15px 0px;
+        font-size: 17px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 15px;
+        padding-bottom: 17px;
+        border: 1px solid #FFF;
+    }
+    .showroom-wrapper p {
+        font-size: 14px;
+        margin-bottom: 15px;
+        margin-left: 1px;
+        text-align: center;
+    }
+    .galary-text h3 {
+        margin: 0 auto 15px;
+    }
+    .galary-text p {
+        max-width: 572px;
+        margin-bottom: 30px;
+    }
+   
+    /* glary slider */
+    .galary-images .pic{
+        margin-left: 10px;
+        margin-right: 10px;
+        
+    }
+    .galary-images{
+             margin-bottom: 40px;
+            gap: 10px
+        
+    }
+    .card-wrapper .card-text h4{
+        margin-bottom: 15px;
+    }
+    .card-wrapper .card-text p{
+        margin-bottom: 20px;
+    }
+    .card-wrapper .card-text a {
+        font-size: 13px;
+        padding: 10px 15px;
+      
+    }
+    .card-wrapper .card {
+        margin-bottom: 10px;
+    }
+    .visit-wrapper {
+        margin-bottom: 35px;
+    }
+    .visit-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .galary-images .pic img {
+        width: 100%;
+    }
+    .visit-left {
+        width: 100%;
+    }
+    .visit-right {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .visit-right-top{
+        width: 48%;
+    }
+    .visit-right-buttom{
+        width: 48%;
+    }
+    /* Visiting Secgion */
+    .visit-left h2 {
+        margin-bottom: 15px;
+    }
+    h2 {
+        font-size: 21px;
+        font-weight: 500;
+        
+    }
+    .visit-left {
+        margin-bottom: 30px;
+       
+    }
+    .header-navbar {
+        flex-direction: column;
+        width: 100%;
+    }
+    .nav-wrapper {
+        flex-direction: column;
+        margin-bottom: 20px;
+  
+    }
+    .soical-link {
+      
+        justify-content: flex-start;
+    }
+    .header-navbar a {
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .header-navbar li a::after {
+        top: 34px;
+        right: auto;
+        height: 2px;
+        width: 50px;
+        left: 3px;
+        margin-left: 0;
+    }
+/* ############################### footer section############## */
+
+footer .header-buttom-section{
+        display: block;
+        height: auto;
+        background-color: #595855;
+    }
+    footer .header-top-section .top-section-wrapper{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+    footer .header-top-section .top-section-wrapper .visit-btn{
+        
+         
+            padding: 10px 7px;
+            margin-left: 0px;
+    }
+    footer .header-top-section .top-section-wrapper p{
+        margin-bottom: 10px;
+    font-size: 12px;
+    } 
+    footer .header-top-section .top-section-wrapper .contact-no{
+        font-size: 14px;
+    margin-bottom: 10px;
+        }
+        footer .header-buttom-section .nav-wrapper{
+            margin-bottom: 30px;
+        }
+        footer .header-buttom-section .header-navbar li{
+            text-align: center;
+            padding-top: 16px;
+            padding-bottom: 12px;
+        }
+        footer .header-buttom-section .soical-link{
+            width: 100%;
+            justify-content: center;
+        }
+        footer .header-buttom-section li a::after{
+           
+            width: 0px;
+        }
+        .card-wrapper   {
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+        /* slick */
+       .slick-next {
+        height: 46px;
+    width: 148px;
+    border-radius: 70%;
+       }
+       .slick-prev {
+        height: 46px;
+    width: 148px;
+    border-radius: 70%;
+       }
+       
+       .slick-dots{
+        display: none;
+       }
+       .galary-images{
+        position: relative;
+       }
+       .galary-images .temp{
+        /* display: block;
+        position: absolute;
+        right: -54px;
+        top:32%;
+        width: 52px;
+        transform: translateY(-50%);
+        z-index: 1000; */
+        font-size: 40px;
+      }
+       .galary-images .slick-prev {
+        display: block;
+        position: absolute;
+        right: 15px;
+        top:52%;
+        width: 38px;
+        transform: translateY(-50%);
+        z-index: 1000;
+      }
+      .galary-images .slick-next
+      {
+        display: block;
+        position: absolute;
+        left: 15px;
+        top:52%;
+        transform: translateY(-50%);
+        z-index: 1000;
+        width: 38px;
+      }
+      .blog-cards{
+        position: relative;
+      }
+      .blog-cards .slick-prev{
+        position: absolute;
+        display: block;
+        left: 0px;
+        top:50%;
+        transform: translateY(-50%);
+        z-index: 1000;
+      }
+      .blog-cards .slick-next{
+        height: 40px;
+        display: block;
+        position: absolute;
+        top:18%;
+        transform: translateY(-50%);
+        z-index: 1000;
+        right: 14px;
+        width: 42px
+      }
+      
+      .blog-cards .slick-prev {
+        height: 40px;
+        display: block;
+        position: absolute;
+        top: 18%;
+        transform: translateY(-50%);
+        z-index: 1000;
+        left: 15px;
+        width: 42px;
+     
+  
+   
+    }
+    }
+    /* ######################### Responsive Styling#####################  */
+/* ################Styling for "header" in 1024 point media thanks################ */
+    @media only screen and (max-width: 481px){
+        .container {
+            padding: 0px 30px;
+            overflow-x: auto;
+        }
+        .header-navbar a {
+            font-size: 14px;
+           
+        }
+    .top-section-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .header-top-section p {
+        margin-right: 0px;
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    .contact-no {
+        margin-bottom: 10px;
+    }
+    .visit-btn {
+        padding: 10px 12px;
+        margin-left: 10px;
+        border-radius: 3px;
+    }
+    label.menubtn {
+        width: 51px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        flex-direction: column;
+        padding: 0 6px;
+        transition: 0.3s all ease-in-out;
+        position: absolute;
+        top: 145px;
+        right: 15px;
+    }
+    .soical-link p {
+        font-size: 12px;
+    }
+    .soical-link i {
+        font-size: 20px;
+        padding-left: 11px;
+    }
+    .text-wrapper h2 {
+        margin-bottom: 20px;
+    }
+    .product-cards {
+        padding-bottom: 35px;
+    }
+    .text-wrapper {
+        padding-top: 20px;
+        margin-bottom: 35px;
+    }
+    .header-logo img {
+        width: 175px;
+    }
+    .header-logo {
+    
+        margin: 10px;
+    }
+    .banner-wrapper {
+        padding: 20px;
+    }
+    .voted {
+        font-size: 19px;
+    }
+    .banner-wrapper a {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+    .best-carpet {
+        font-size: 13px;
+        padding-right: 20px;
+    }
+    .our-product {
+        margin-bottom: 49px;
+    }
+    .store {
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .wellcome-section {
+        margin-bottom: 30px;
+    }
+    .well-img-wrapper {
+        margin-bottom: 15px;
+      
+        max-width: 416px;
+        margin-right: auto;
+    }
+    .well-text-wrapper h2 {
+        margin-bottom: 10px;
+    }
+    .showroom-wrapper p {
+         /* margin: 0 auto;
+         width: 102%; */
+         width: 105%;
+         font-size: 12px;
+         margin-bottom: 20px;
+         margin-left: 1;
+         text-align: center;
+        }
+        .showroom-wrapper a {
+           
+            font-size: 15px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+           
+        }
+    
+    .showroom-wrapper a {
+        margin: 12px 0px;
+        font-size: 14px;
+      
+    }
+    
+    .well-text-wrapper p {
+        margin-bottom: 20px;
+    }
+    .well-text-wrapper a {
+        padding: 12px;
+       
+    }
+    .galary-text h3 {
+        max-width: 394px;
+        font-size: 20px;
+    }
+    .galary-text h3 {
+        margin: 0 auto 5px;
+    }
+    .galary-text p {
+        max-width: 391px;
+        margin-bottom: 20px;
+    }
+    footer {
+        margin-bottom: 40px;
+    }
+    .map {
+        margin-bottom: 30px;
+    }
+    .footer-text p {
+        font-size: 10px;
+        
+    }
+}
